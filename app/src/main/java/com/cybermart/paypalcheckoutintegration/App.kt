@@ -14,7 +14,7 @@ class App : Application() {
         super.onCreate()
         val config = CheckoutConfig(
             application = this,
-            clientId = "AU-s8Zw79fi64SXax-IOt42hsMrgN1zbzRSWukvfQeNZD6CpJtC8OCvHwnz8DGLz3Gg_59ZrGuKcrOcA",
+            clientId = "Pay-Pal_client_id",
             environment = Environment.SANDBOX,
             currencyCode = CurrencyCode.USD,
             userAction = UserAction.PAY_NOW,
