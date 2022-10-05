@@ -70,6 +70,7 @@ class MainActivity : AppCompatActivity() {
             onApprove =
             OnApprove { approval ->
                 approval.orderActions.capture { captureOrderResult ->
+                    //here you will get the result (Success)
                     Log.i("CaptureOrder", "CaptureOrderResult: $captureOrderResult")
                 }
             },
