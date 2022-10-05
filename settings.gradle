@@ -1,0 +1,21 @@
+import org.gradle.api.initialization.resolve.RepositoriesMode
+
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.PREFER_SETTINGS)
+    repositories {
+        google()
+        mavenCentral()
+        maven {
+            url  "https://cardinalcommerceprod.jfrog.io/artifactory/android"
+        }
+    }
+}
+rootProject.name = "Paypal CheckOut Integration"
+include ':app'
