@@ -39,3 +39,7 @@ You have to create a Personal Account and a Business account in Paypal.
 
 From your personal account you will pay and in your business account you will get the payment.
 
+**Errors that are handled:**
+- inflation error with com.paypal.checkout:android-sdk:0.8.1 
+- Could not get unknown property 'paypal_sgerritz' for Credentials [username: null] 
+  of type org.gradle.internal.credentials.DefaultPasswordCredentials_Decorated.
